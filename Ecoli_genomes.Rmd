@@ -11,3 +11,16 @@ Here I' working with the data carpentry ecoli genome data set. I found it a this
 ```{r set seed, echo = TRUE, eval = TRUE}
 set.seed(67955032)
 ```
+
+
+Below I am importing the **ecoli data** from our data folder.
+
+```{r Import Data, echo = TRUE, eval = TRUE}
+metadata <- read.csv('data/Ecoli_metadata.csv') # reading in my data file into an object named metadata
+View(metadata) # looking at the table within R
+#str()
+#?str # get help on str
+#??str # all help pages with str in it
+str(metadata) # looking at structure of data frame
+mean(metadata$genome_size) # calculate the mean genome_size
+```
