@@ -1,0 +1,13 @@
+---
+title: "Ecoli Genome Analysis"
+author: "Alcides P. Lorenzo"
+date: "October 12, 2015"
+output: html_document
+---
+
+Here I' working with the data carpentry ecoli genome data set. I found it a this website: <http://rpubs.com/marschmi/117051>
+
+
+```{r set seed, echo = TRUE, eval = TRUE}
+set.seed(67955032)
+```
